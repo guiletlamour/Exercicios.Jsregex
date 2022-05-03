@@ -11,8 +11,8 @@ const ArroFunction = (cpf, dataNascimento,cep) => {
     
     };
 
-//console.log(ArroFunction(!!"458.548.488-48".match(/^\d{3}\.\d{3}\.\d{3}\-\d{2}/gmi),
-//!!"12/11/1992".match(/^[0-9]{2}\/[0-9]{2}\/[1-9]{4}/gmi),!!"58423-582".match(/^[0-9]{5}\-[0-9]{3}/gmi)))
+console.log(ArroFunction(!!"458.548.488-48".match(/^\d{3}\.\d{3}\.\d{3}\-\d{2}/gmi),
+ !!"12/11/1992".match(/^[0-9]{2}\/[0-9]{2}\/[1-9]{4}/gmi),!!"58423-582".match(/^[0-9]{5}\-[0-9]{3}/gmi)))
 
 
 
@@ -25,9 +25,9 @@ const ArroFunction = (cpf, dataNascimento,cep) => {
 
 // Dado o objeto acima, extraia cada propriedade com destructuring
 
-var {firstName, lastName} = person
+ var {firstName, lastName} = person
 
-//console.log(firstName,lastName);
+ console.log(firstName,lastName);
 
  const person2 = {
 
